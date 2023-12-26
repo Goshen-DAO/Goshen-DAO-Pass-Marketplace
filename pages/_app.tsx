@@ -14,7 +14,6 @@ import { Navbar } from "../components/Navbar/Navbar";
 import NextNProgress from "nextjs-progressbar";
 import { NETWORK } from "../const/contractAddresses";
 import "../styles/globals.css";
-require('dotenv').config();
 
 const factoryAddress = process.env.CREST_SMARTWALLET_FACTORY_ADDRESS as string;
 
